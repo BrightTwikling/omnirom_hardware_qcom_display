@@ -109,14 +109,10 @@ void HWCBufferSyncHandler::GetSyncInfo(int fd, std::ostringstream *os) {
 }
 
 DisplayError HWCBufferSyncHandler::SyncWait(int fd) {
-  // Deprecated.
-  assert(false);
   return kErrorUndefined;
 }
 
 bool HWCBufferSyncHandler::IsSyncSignaled(int fd) {
-  // Deprecated.
-  assert(false);
   return false;
 }
 
