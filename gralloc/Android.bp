@@ -231,3 +231,19 @@ cc_binary {
     init_rc: ["vendor.qti.hardware.display.allocator-service.rc"],
     vintf_fragments: ["vendor.qti.hardware.display.allocator-service.xml"],
 }
+
+cc_defaults {
+    name: "gralloc_handle_has_reserved_size_defaults",
+    cflags: [],
+}
+
+cc_defaults {
+    name: "gralloc_handle_has_custom_content_md_reserved_size_defaults",
+    cflags: [],
+}
+
+cc_defaults {
+    name: "gralloc_handle_ubwcp_format_defaults",
+    cflags: [],
+}
+
